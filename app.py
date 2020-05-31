@@ -1,4 +1,6 @@
 file = open("student.txt", "r")
-
-print(file.read())
+text = file.read()
+print(text)
+size = len(text)
+print(size)
 file.close()
